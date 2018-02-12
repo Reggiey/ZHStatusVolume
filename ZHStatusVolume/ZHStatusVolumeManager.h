@@ -24,6 +24,11 @@
 
 @property (class,nonatomic,strong,nonnull) UIColor *indicatorTintColor;
 @property (class,nonatomic,strong,nonnull) UIColor *barBackgroundColor;
+
+
+/**
+ volume view appear duration, defalut value is 1.0
+ */
 @property (class,nonatomic) NSTimeInterval displayTimeInterval;
 
 + (void)regiseter: (UIView<ZHVolumeView> *_Nullable)volumeView;
