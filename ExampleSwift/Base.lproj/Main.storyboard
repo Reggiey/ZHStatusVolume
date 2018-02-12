@@ -24,10 +24,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXC-Wa-zVh">
+                                <rect key="frame" x="160" y="517" width="55" height="30"/>
+                                <state key="normal" title="Remove"/>
+                                <connections>
+                                    <action selector="removeStatusVolume:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EJY-rn-dza"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zY2-GP-sdM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jkg-b1-iiB"/>
+                            <constraint firstItem="TXC-Wa-zVh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WVh-8F-u8r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TXC-Wa-zVh" secondAttribute="bottom" constant="120" id="bUJ-AP-2jB"/>
                             <constraint firstItem="zY2-GP-sdM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pmi-N3-mtT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

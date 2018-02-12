@@ -178,8 +178,8 @@
 				85086D5F202FEB0C007F2FF5 /* Main.storyboard */,
 				85086D62202FEB0C007F2FF5 /* Assets.xcassets */,
 				85086D64202FEB0C007F2FF5 /* LaunchScreen.storyboard */,
-				85086D67202FEB0C007F2FF5 /* Info.plist */,
 				85086D68202FEB0C007F2FF5 /* main.m */,
+				85086D67202FEB0C007F2FF5 /* Info.plist */,
 			);
 			path = Example;
 			sourceTree = "<group>";

@@ -99,9 +99,6 @@
     }
     
     [_volumeView setCurrentVolume:from];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(appearTimeInterval * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [_volumeView volumeUpdated:to];
-    });
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(_displayTimeInterval * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         self.displayCount -= 1;
