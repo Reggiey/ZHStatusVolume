@@ -23,5 +23,9 @@ class ViewController: UIViewController {
         ZHStatusVolumeManager.removeVolumeView()
     }
     
+    @IBAction func add(_ sender: Any) {
+        ZHStatusVolumeManager.addCustomVolumeView()
+    }
+    
 }
 

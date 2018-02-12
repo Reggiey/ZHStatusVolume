@@ -31,11 +31,20 @@
                                     <action selector="removeStatusVolume:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EJY-rn-dza"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2Z-o2-3pa">
+                                <rect key="frame" x="172.5" y="457" width="30" height="30"/>
+                                <state key="normal" title="add"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cax-fp-dgX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="H2Z-o2-3pa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gwp-4I-9jx"/>
                             <constraint firstItem="zY2-GP-sdM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jkg-b1-iiB"/>
                             <constraint firstItem="TXC-Wa-zVh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WVh-8F-u8r"/>
+                            <constraint firstItem="TXC-Wa-zVh" firstAttribute="top" secondItem="H2Z-o2-3pa" secondAttribute="bottom" constant="30" id="aUJ-kh-kP5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TXC-Wa-zVh" secondAttribute="bottom" constant="120" id="bUJ-AP-2jB"/>
                             <constraint firstItem="zY2-GP-sdM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pmi-N3-mtT"/>
                         </constraints>
