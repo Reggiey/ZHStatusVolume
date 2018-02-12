@@ -6,7 +6,7 @@ Hide system volume hud, display upon status bar.
 
 ## Usage
 
-###1.Setup 
+### 1.Setup 
 
 #### Use default volume view:
 
@@ -18,7 +18,7 @@ Hide system volume hud, display upon status bar.
  ZHStatusVolumeManager.indicatorTintColor = [UIColor darkGrayColor];
 ```
 
-####Custom volume view: 
+#### Custom volume view: 
 
 implement a UIView conform to protocol  `ZHVolumeView` :
 
