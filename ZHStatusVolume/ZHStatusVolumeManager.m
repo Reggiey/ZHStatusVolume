@@ -42,7 +42,7 @@
 }
 
 + (void)regiseter: (UIView<ZHVolumeView> *)volumeView {
-    if (self.volumeView) {
+    if (volumeView) {
         [self sharedInstance].volumeView = volumeView;
     }else {
         [self sharedInstance].volumeView = [ZHStatusBarVolumeView new];

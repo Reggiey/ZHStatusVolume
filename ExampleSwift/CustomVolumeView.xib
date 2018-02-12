@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomVolumeView" customModule="ExampleSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volume" translatesAutoresizingMaskIntoConstraints="NO" id="Sjh-C6-nNA">
+                    <rect key="frame" x="5" y="0.0" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="EYG-Ba-iUF"/>
+                        <constraint firstAttribute="height" constant="30" id="ePN-iQ-zGo"/>
+                    </constraints>
+                </imageView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RdB-wr-KkS">
+                    <rect key="frame" x="45" y="13" width="315" height="2"/>
+                    <color key="tintColor" red="1" green="0.53725490196078429" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Sjh-C6-nNA" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="07Q-6Y-OF8"/>
+                <constraint firstItem="RdB-wr-KkS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="45" id="Vh6-PL-DvU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="RdB-wr-KkS" secondAttribute="bottom" constant="15" id="bPb-lg-qyq"/>
+                <constraint firstAttribute="trailing" secondItem="RdB-wr-KkS" secondAttribute="trailing" constant="15" id="dFN-G5-DFP"/>
+                <constraint firstItem="Sjh-C6-nNA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="n8q-Eh-1bk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="progressView" destination="RdB-wr-KkS" id="tt3-qg-3Gj"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-112"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="volume" width="100" height="100"/>
+    </resources>
+</document>

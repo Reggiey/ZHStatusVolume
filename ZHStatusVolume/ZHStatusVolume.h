@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char ZHStatusVolumeVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <ZHStatusVolume/PublicHeader.h>
 
 
+#import <ZHStatusVolume/ZHStatusVolumeManager.h>
+

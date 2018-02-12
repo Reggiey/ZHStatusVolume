@@ -7,12 +7,16 @@
 //
 
 import UIKit
-import MediaPlayer
+import ZHStatusVolume
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let customeView = Bundle.main.loadNibNamed("CustomVolumeView", owner: nil, options: nil)?.first as! CustomVolumeView
+        customeView.layer.cornerRadius = 10
+        ZHStatusVolumeManager.regiseter(customeView)
+        ZHStatusVolumeManager.addCustomVolumeView()
     }
 
 

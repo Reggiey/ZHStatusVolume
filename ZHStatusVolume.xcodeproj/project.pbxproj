@@ -25,10 +25,12 @@
 		85086D89202FEB7D007F2FF5 /* ZHStatusVolume.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85086D48202FEAA2007F2FF5 /* ZHStatusVolume.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85086D8F202FF214007F2FF5 /* ZHStatusBarVolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85086D8D202FF214007F2FF5 /* ZHStatusBarVolumeView.h */; };
 		85086D90202FF214007F2FF5 /* ZHStatusBarVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85086D8E202FF214007F2FF5 /* ZHStatusBarVolumeView.m */; };
-		85086D93202FF262007F2FF5 /* ZHStatusVolumeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85086D91202FF262007F2FF5 /* ZHStatusVolumeManager.h */; };
+		85086D93202FF262007F2FF5 /* ZHStatusVolumeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85086D91202FF262007F2FF5 /* ZHStatusVolumeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85086D94202FF262007F2FF5 /* ZHStatusVolumeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85086D92202FF262007F2FF5 /* ZHStatusVolumeManager.m */; };
 		857298E420316A1E0074F465 /* ZHContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 857298E220316A1E0074F465 /* ZHContainerViewController.h */; };
 		857298E520316A1E0074F465 /* ZHContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857298E320316A1E0074F465 /* ZHContainerViewController.m */; };
+		859E2F4A20317CFD00EF1417 /* CustomVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E2F4920317CFD00EF1417 /* CustomVolumeView.swift */; };
+		859E2F4C2031809B00EF1417 /* CustomVolumeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E2F4B2031809B00EF1417 /* CustomVolumeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,8 @@
 		85086D92202FF262007F2FF5 /* ZHStatusVolumeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHStatusVolumeManager.m; sourceTree = "<group>"; };
 		857298E220316A1E0074F465 /* ZHContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHContainerViewController.h; sourceTree = "<group>"; };
 		857298E320316A1E0074F465 /* ZHContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHContainerViewController.m; sourceTree = "<group>"; };
+		859E2F4920317CFD00EF1417 /* CustomVolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVolumeView.swift; sourceTree = "<group>"; };
+		859E2F4B2031809B00EF1417 /* CustomVolumeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomVolumeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 				85086D7F202FEB70007F2FF5 /* Assets.xcassets */,
 				85086D81202FEB70007F2FF5 /* LaunchScreen.storyboard */,
 				85086D84202FEB70007F2FF5 /* Info.plist */,
+				859E2F4920317CFD00EF1417 /* CustomVolumeView.swift */,
+				859E2F4B2031809B00EF1417 /* CustomVolumeView.xib */,
 			);
 			path = ExampleSwift;
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				85086D83202FEB70007F2FF5 /* LaunchScreen.storyboard in Resources */,
 				85086D80202FEB70007F2FF5 /* Assets.xcassets in Resources */,
 				85086D7E202FEB70007F2FF5 /* Main.storyboard in Resources */,
+				859E2F4C2031809B00EF1417 /* CustomVolumeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +374,7 @@
 			files = (
 				85086D7B202FEB70007F2FF5 /* ViewController.swift in Sources */,
 				85086D79202FEB70007F2FF5 /* AppDelegate.swift in Sources */,
+				859E2F4A20317CFD00EF1417 /* CustomVolumeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
