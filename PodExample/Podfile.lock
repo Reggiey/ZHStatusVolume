@@ -1,0 +1,12 @@
+PODS:
+  - ZHStatusVolume (0.0.1)
+
+DEPENDENCIES:
+  - ZHStatusVolume
+
+SPEC CHECKSUMS:
+  ZHStatusVolume: 6e0f7728f6f141b78df872540c968aef8c69f06e
+
+PODFILE CHECKSUM: 3b7e0e49e26dbf1ab2964fba956b2ab907f4d2ec
+
+COCOAPODS: 1.4.0

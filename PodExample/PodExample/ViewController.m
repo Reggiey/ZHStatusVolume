@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  Example
+//  PodExample
 //
-//  Created by 卓同学 on 2018/2/11.
+//  Created by 卓同学 on 2018/2/13.
 //  Copyright © 2018年 QM. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "ZHStatusVolumeManager.h"
+#import <ZHStatusVolumeManager.h>
 
 @interface ViewController ()
 
@@ -19,8 +19,8 @@
     [super viewDidLoad];
     [ZHStatusVolumeManager regiseter:nil];
     [ZHStatusVolumeManager addCustomVolumeView];
-    self.view.backgroundColor = [UIColor lightGrayColor];
 }
+
 
 
 @end
