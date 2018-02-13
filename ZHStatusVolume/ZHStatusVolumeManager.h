@@ -31,7 +31,7 @@
  */
 @property (class,nonatomic) NSTimeInterval displayTimeInterval;
 
-+ (void)regiseter: (UIView<ZHVolumeView> *_Nullable)volumeView;
++ (void)register: (UIView<ZHVolumeView> *_Nullable)volumeView;
 + (void)addCustomVolumeView;
 + (void)removeVolumeView;
 

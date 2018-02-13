@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [ZHStatusVolumeManager regiseter:nil];
+    [ZHStatusVolumeManager register:nil];
     [ZHStatusVolumeManager addCustomVolumeView];
     self.view.backgroundColor = [UIColor lightGrayColor];
 }

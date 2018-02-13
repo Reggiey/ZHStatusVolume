@@ -41,7 +41,7 @@
     return sharedInstance;
 }
 
-+ (void)regiseter: (UIView<ZHVolumeView> *)volumeView {
++ (void)register: (UIView<ZHVolumeView> *)volumeView {
     if (volumeView) {
         [self sharedInstance].volumeView = volumeView;
     }else {

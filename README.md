@@ -13,7 +13,7 @@ Hide system volume hud, display upon status bar.Compatible with swift.
 #### Use default volume view:
 
 ```objective-c
-[ZHStatusVolumeManager regiseter:nil];
+[ZHStatusVolumeManager register:nil];
 
 //config volume view style
  ZHStatusVolumeManager.barBackgroundColor = [UIColor whiteColor];
@@ -40,7 +40,7 @@ then register with custom view instance:
 import ZHStatusVolume
 
 let customeView = Bundle.main.loadNibNamed("CustomVolumeView", owner: nil, options: nil)?.first as! CustomVolumeView
-ZHStatusVolumeManager.regiseter(customeView)
+ZHStatusVolumeManager.register(customeView)
 ```
 
 ### 2.Start it

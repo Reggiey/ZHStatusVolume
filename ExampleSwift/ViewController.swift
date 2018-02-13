@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let customeView = Bundle.main.loadNibNamed("CustomVolumeView", owner: nil, options: nil)?.first as! CustomVolumeView
         customeView.layer.cornerRadius = 10
-        ZHStatusVolumeManager.regiseter(customeView)
+        ZHStatusVolumeManager.register(customeView)
         ZHStatusVolumeManager.addCustomVolumeView()
     }
 
