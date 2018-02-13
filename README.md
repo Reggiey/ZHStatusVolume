@@ -1,6 +1,8 @@
 # ZHStatusVolume
 
-Hide system volume hud, display upon status bar.
+[![CocoaPods](https://img.shields.io/cocoapods/v/ZHStatusVolume.svg?style=flat)](http://cocoadocs.org/docsets/ZHStatusVolume/)
+
+Hide system volume hud, display upon status bar.Compatible with swift.
 
 ![](/resource/bar.gif)
 
@@ -47,8 +49,35 @@ ZHStatusVolumeManager.regiseter(customeView)
 // volume changed view will only display upon status bar
 [ZHStatusVolumeManager addCustomVolumeView];
 
-// back to stand way
+```
+
+### 3.Stop
+
+If you only need some pages hide system volume hud, you could call this method to back to standard way.
+
+```objective-c
+// back to standard way
 [ZHStatusVolumeManager removeVolumeView];
 
 ```
+## Installation
 
+### CocoaPods:
+
+`pod 'ZHStatusVolume'`
+
+## Beware
+
+Get volume by using `AVAudioSession`, so during status volume work, codebase will set `AVAudioSession ` active.
+
+## Todo
+
+Support rotating screen.
+
+## 微博
+
+[@没故事的卓同学](https://weibo.com/1926303682)
+
+## Thanks
+
+[JDStatusBarNotification](https://github.com/calimarkus/JDStatusBarNotification)
